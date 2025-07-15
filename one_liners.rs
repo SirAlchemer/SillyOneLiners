@@ -1,3 +1,5 @@
+
+// Gathers unique chars from two strings, sorts them lexicographically, and then returns them as a whole string. 
 fn longest(a1: &str, a2: &str) -> String {
     return a1.chars() // 1
             .chain(a2.chars()) // 2
